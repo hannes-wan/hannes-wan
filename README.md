@@ -12,7 +12,7 @@ Hannes Software builds focused Windows and Linux workbenches around observable e
 | --- | --- | --- |
 | **RTSP Inspector** | Reconciles RTSP transactions and SDP with RTP continuity and RTCP timing, turning camera-stream failures into a reviewable control-plane and media-plane evidence trail. | [Repository](https://github.com/hannes-wan/rtsp-inspector-official) · [Product](https://hannes-software.com/rtsp-inspector/) |
 | **Bus Scope** | Connects Linux `usbmon` and Windows USBPcap capture readiness to filtered transfer timelines, setup packets, descriptors, endpoint state, and raw payload evidence. | [Repository](https://github.com/hannes-wan/bus-scope-official) · [Product](https://hannes-software.com/bus-scope/) |
-| **PCAP Surgery** | Applies bounded, checksum-aware edits to PCAP and PCAPNG evidence with explicit packet scope, transformation preflight, privacy inspection, and source-preserving export. | [Repository](https://github.com/hannes-wan/pcap-surgery-official) · [Product](https://hannes-software.com/pcap-surgery/) |
+| **PCAP Surgery** | Previews bounded header rewrites, identifies supported IPv4/TCP/UDP checksum repairs, and keeps packet scope, privacy evidence, and the untouched source visible before an optional export. | [Repository](https://github.com/hannes-wan/pcap-surgery-official) · [Product](https://hannes-software.com/pcap-surgery/) |
 
 These are not generic packet viewers. They are evidence workbenches: the selected transaction, transfer, packet, byte range, warning, and derived artifact remain connected so a diagnosis can survive handoff.
 
